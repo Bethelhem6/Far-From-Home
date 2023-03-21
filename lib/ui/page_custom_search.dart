@@ -213,7 +213,7 @@ class CustomSearchState extends State<CustomSearchPage> {
             children: <Widget>[
               Container(
                 color: _selectedRoom.contains("1RK") ? Colors.black.withOpacity(0.3) : backgroundColor,
-                child: FlatButton(
+                child: TextButton(
                   child: Text(
                     "1 RK",
                     style: TextStyle(
@@ -241,7 +241,7 @@ class CustomSearchState extends State<CustomSearchPage> {
               ),
               Container(
                 color: _selectedRoom.contains("1BHK") ? Colors.black.withOpacity(0.3) : backgroundColor,
-                child: FlatButton(
+                child: TextButton(
                   child: Text(
                     "1 BHK",
                     style: TextStyle(
@@ -269,7 +269,7 @@ class CustomSearchState extends State<CustomSearchPage> {
               ),
               Container(
                 color: _selectedRoom.contains("2BHK") ? Colors.black.withOpacity(0.3) : backgroundColor,
-                child: FlatButton(
+                child: TextButton(
                   child: Text(
                     "2 BHK",
                     style: TextStyle(
@@ -301,7 +301,7 @@ class CustomSearchState extends State<CustomSearchPage> {
             children: <Widget>[
               Container(
                 color: _selectedRoom.contains("3BHK") ? Colors.black.withOpacity(0.3) : backgroundColor,
-                child: FlatButton(
+                child: TextButton(
                   child: Text(
                     "3 BHK",
                     style: TextStyle(
@@ -329,7 +329,7 @@ class CustomSearchState extends State<CustomSearchPage> {
               ),
               Container(
                 color: _selectedRoom.contains("4BHK") ? Colors.black.withOpacity(0.3) : backgroundColor,
-                child: FlatButton(
+                child: TextButton(
                   child: Text(
                     "4 BHK",
                     style: TextStyle(
@@ -357,7 +357,7 @@ class CustomSearchState extends State<CustomSearchPage> {
               ),
               Container(
                 color: _selectedRoom.contains("4+BHK") ? Colors.black.withOpacity(0.3) : backgroundColor,
-                child: FlatButton(
+                child: TextButton(
                   child: Text(
                     "4+ BHK",
                     style: TextStyle(
@@ -522,7 +522,7 @@ class CustomSearchState extends State<CustomSearchPage> {
           child: Container(
           //margin: EdgeInsets.only(bottom: size.hp(3)),
           color: colorCurve,
-          child: FlatButton(
+          child: TextButton(
             child: Text(
               "SEARCH",
               style: TextStyle(

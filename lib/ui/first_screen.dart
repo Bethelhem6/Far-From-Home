@@ -20,7 +20,7 @@ class FirstScreen extends StatelessWidget {
         backgroundColor: Colors.white,
         elevation: 0,
         actions: <Widget>[
-          FlatButton.icon(
+          TextButton.icon(
             label: Text(
               'Skip',
               style: TextStyle(
@@ -81,7 +81,7 @@ class FirstScreen extends StatelessWidget {
                 ),
                 Padding(
                   padding: EdgeInsets.only(top: size.getWidthPx(30)),
-                  child: RaisedButton(
+                  child: MaterialButton(
                     child: Text('CREATE FREE ACCOUNT'),
                     color: Colors.blue[700],
                     textColor: Colors.white,
@@ -97,7 +97,7 @@ class FirstScreen extends StatelessWidget {
                 ),
                 Padding(
                   padding: EdgeInsets.fromLTRB(0,size.getWidthPx(5),0,size.hp(6.5)),
-                  child: RaisedButton(
+                  child: MaterialButton(
                     child: Text('SIGN IN'),
                     color: Colors.white,
                     textColor: Colors.blue[700],

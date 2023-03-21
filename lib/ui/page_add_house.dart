@@ -249,7 +249,7 @@ class _WallState extends State<Wall> {
                         alignment: Alignment.bottomRight,
                         child: Padding(
                           padding: const EdgeInsets.only(top: 20.0),
-                          child: RaisedButton(
+                          child: MaterialButton(
                             onPressed: validateAndSave,
                             child: Text(
                               'Next',
@@ -745,7 +745,7 @@ class _InteState extends State<Inte> {
                         alignment: Alignment.bottomRight,
                         child: Padding(
                           padding: const EdgeInsets.only(top: 8.0),
-                          child: RaisedButton(
+                          child: MaterialButton(
                             onPressed: validateAndSave,
                             child: Text(
                               'Next',
@@ -1367,7 +1367,7 @@ class _Finalfmstate extends State<Finalfm> {
                         alignment: Alignment.bottomRight,
                         child: Padding(
                           padding: const EdgeInsets.only(top: 8.0),
-                          child: RaisedButton(
+                          child: MaterialButton(
                             onPressed: validateAndSave,
                             child: Text(
                               'Next',
@@ -1558,7 +1558,7 @@ class ChoiceCard extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    final TextStyle textStyle = Theme.of(context).textTheme.display1;
+    final TextStyle textStyle = Theme.of(context).textTheme.bodyMedium;
     return Card(
       color: Colors.white,
       child: Center(

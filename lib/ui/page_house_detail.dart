@@ -1481,7 +1481,7 @@ Widget getNinthCard() {
                   width: double.infinity,
                   height: 40,
                   color: Colors.blue[700],
-                  child: FlatButton(
+                  child: TextButton(
                     onPressed: (){
                       Navigator.pushReplacement(context,MaterialPageRoute(builder: (_)=> MultiImage(snapshot.id,snapshot)));
                     },

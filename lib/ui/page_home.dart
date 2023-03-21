@@ -228,7 +228,7 @@ class _SearchPageState extends State<SearchPage> {
                     padding: new EdgeInsets.fromLTRB(size.getWidthPx(15),0,size.getWidthPx(15),size.getWidthPx(6)),
                     child: SizedBox(
                       width: double.infinity,
-                      child: new RaisedButton(
+                      child: MaterialButton(
                         color: Colors.blue[700],
                         colorBrightness: Brightness.dark,
                         child: Text('Post free property ad'),

@@ -360,7 +360,7 @@ class _SignUpPageState extends State<SignUpPage> {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(100)),
                         color: Color(0xff1976d2)),
-                    child: FlatButton(
+                    child: TextButton(
                       child: Text(
                         "Get Started",
                         style: TextStyle(
@@ -384,7 +384,7 @@ class _SignUpPageState extends State<SignUpPage> {
                       fontSize: size.hp(2),
                       fontWeight: FontWeight.normal),
                 ),
-                FlatButton(
+                TextButton(
                   child: Text(
                     "Login",
                     style: TextStyle(

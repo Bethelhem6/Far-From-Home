@@ -262,7 +262,7 @@ class _LoginPageState extends State<LoginPage> {
                   decoration: BoxDecoration(
                       borderRadius: BorderRadius.all(Radius.circular(100)),
                       color: Color(0xff1976d2)),
-                  child: FlatButton(
+                  child: TextButton(
                     child: Text(
                       "Login",
                       style: TextStyle(
@@ -277,7 +277,7 @@ class _LoginPageState extends State<LoginPage> {
               height: size.hp(0.8),
             ),
             Center(
-              child: FlatButton(
+              child: TextButton(
                 onPressed: (){
                   Navigator.push(context,
                           MaterialPageRoute(builder: (context) => ForgotPasswordPage()));
@@ -314,7 +314,7 @@ class _LoginPageState extends State<LoginPage> {
                     decoration: BoxDecoration(
                         borderRadius: BorderRadius.all(Radius.circular(100)),
                         color: Color(0xffffffff)),
-                    child: RaisedButton(
+                    child: MaterialButton(
                       shape: RoundedRectangleBorder(
                         borderRadius: new BorderRadius.circular(50.0),
                       ),
@@ -354,7 +354,7 @@ class _LoginPageState extends State<LoginPage> {
                       fontSize: size.hp(2),
                       fontWeight: FontWeight.normal),
                 ),
-                FlatButton(
+                TextButton(
                   child: Text(
                     "Sign Up",
                     style: TextStyle(

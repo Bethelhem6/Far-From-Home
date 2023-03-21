@@ -144,7 +144,7 @@ class InvoiceState extends State<Invoice> {
                     children: <Widget>[
                       Padding(
                         padding: const EdgeInsets.symmetric(vertical: 8.0,horizontal: 67),
-                        child: RaisedButton(
+                        child: MaterialButton(
                             color: Colors.green[800],
                             textColor: Colors.white,
                             child: Row(
@@ -157,7 +157,7 @@ class InvoiceState extends State<Invoice> {
                       ),
                       Padding(
                         padding: const EdgeInsets.symmetric(vertical: 8.0,horizontal: 67),
-                        child: RaisedButton(
+                        child: MaterialButton(
                             color: Colors.green[800],
                             key: shareWidget,
                             textColor: Colors.white,

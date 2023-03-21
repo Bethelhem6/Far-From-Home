@@ -43,7 +43,7 @@ class Utils {
       ),
 
       actions: <Widget>[
-        Utils.isAndroidPlatform()?FlatButton:CupertinoDialogAction(
+        Utils.isAndroidPlatform()?TextButton:CupertinoDialogAction(
             onPressed: onPressed,
             child: Text(
               "OK",
@@ -70,13 +70,13 @@ class Utils {
         ),
       ),
       actions: <Widget>[
-        FlatButton(
+        TextButton(
             onPressed: onPressed,
             child: Text(
               "OK",
               style: TextStyle(color: Colors.black87),
             )),
-        FlatButton(
+        TextButton(
             onPressed: () => Navigator.pop(context),
             child: Text(
               "Cancel",

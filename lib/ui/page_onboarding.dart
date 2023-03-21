@@ -92,7 +92,7 @@ class _OnBoardingPageState extends State<OnBoardingPage> {
           actions: <Widget>[
             Padding(
               padding: EdgeInsets.only(top: size.getWidthPx(16), right:  size.getWidthPx(12), bottom: size.getWidthPx(12)),
-              child: RaisedButton(
+              child: MaterialButton(
                 child: Text(
                   isLastPage ? 'DONE' : 'NEXT',
                   style: TextStyle(fontFamily: 'Exo2',fontWeight: FontWeight.w500,fontSize: 14,color: Colors.grey.shade700),

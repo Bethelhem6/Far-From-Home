@@ -152,7 +152,7 @@ class _ForgotPasswordPageState extends State<ForgotPasswordPage> {
       padding: EdgeInsets.symmetric(
           vertical: size.getWidthPx(20), horizontal: size.getWidthPx(16)),
       width: size.getWidthPx(200),
-      child: RaisedButton(
+      child: MaterialButton(
         elevation: 8.0,
         shape: RoundedRectangleBorder(
             borderRadius: new BorderRadius.circular(30.0)),

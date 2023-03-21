@@ -228,7 +228,7 @@ class _PaymentPageState extends State<PaymentPage> {
                 child: Container(
                   width: double.infinity,
                   color: Colors.blue[700],
-                  child: FlatButton(
+                  child: TextButton(
                     onPressed: (){
                       if(_formKey.currentState.validate()){
                         openCheckout();

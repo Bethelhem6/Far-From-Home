@@ -23,8 +23,8 @@ class _UsersState extends State<Users> {
   SearchBar searchBar;
   
   void onSubmitted(String value) {
-    setState(() => _scaffoldKey.currentState
-        .showSnackBar(new SnackBar(content: new Text('You wrote $value!'))));
+    setState(() => _scaffoldKey.currentState.showBottomSheet((context) => Text('You wrote $value!'))
+      );
   }
   
   AppBar buildAppBar(BuildContext context) {

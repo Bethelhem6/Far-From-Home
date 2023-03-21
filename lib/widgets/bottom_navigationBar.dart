@@ -41,22 +41,22 @@ class _BottomNavBarState extends State<BottomNavBar>
         BottomNavigationBarItem(
           backgroundColor: Colors.grey.shade50,
           icon: Icon(Icons.home),
-          title: Text('Dashboard', style: TextStyle(fontFamily: 'Exo2')),
+          // title: Text('Dashboard', style: TextStyle(fontFamily: 'Exo2')),
         ),
         BottomNavigationBarItem(
           backgroundColor: Colors.grey.shade50,
           icon: Icon(Icons.search),
-          title: Text('Search', style: TextStyle(fontFamily: 'Exo2')),
+          // title: Text('Search', style: TextStyle(fontFamily: 'Exo2')),
         ),
         BottomNavigationBarItem(
           backgroundColor: Colors.grey.shade50,
           icon: Icon(Icons.person),
-          title: Text('Profile', style: TextStyle(fontFamily: 'Exo2')),
+          // title: Text('Profile', style: TextStyle(fontFamily: 'Exo2')),
         ),
         BottomNavigationBarItem(
           backgroundColor: Colors.grey.shade50,
           icon: Icon(Icons.settings),
-          title: Text('Setting', style: TextStyle(fontFamily: 'Exo2')),
+          // title: Text('Setting', style: TextStyle(fontFamily: 'Exo2')),
         ),
       ],
     );
